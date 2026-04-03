@@ -1,0 +1,45 @@
+header {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 50px; /* Регулируйте высоту логотипа */
+}
+
+.top-links {
+    display: flex;
+    gap: 15px; /* Расстояние между элементами */
+    align-items: center;
+}
+
+.btn-green {
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Зелёный цвет кнопки */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.link {
+    text-decoration: none;
+    color: #333; /* Цвет текста ссылок */
+    font-size: 14px;
+}
+
+.phone {
+    font-weight: bold;
+    color: #007BFF; /* Синий цвет телефона */
+    font-size: 14px;
+}
