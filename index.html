@@ -3,33 +3,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <!-- Логотип -->
-            <div class="logo">
-                <img src="" alt="">
-            </div>
-             <!-- Меню навигации -->
-        <div class="top-links">
-            <button class="btn-green">ХОЧУ ПОПРОБОВАТЬ</button>
-            <a href="#" class="link">СТАТЬИ</a>
-            <a href="#" class="link">ОТЗЫВЫ</a>
-            <a href="#" class="link">СМИ О НАС</a>
-            <a href="#" class="link">ПАРТНЕРАМ</a>
-            <a href="#" class="link">КОНТАКТЫ</a>
-            <span class="phone">обратный звонок</span>
+<header class="header-container">
+<div class="first">
+    <div class="logo">
+        <div class="logo-images">
+            <img src="images\logo (3).png" alt="logo">
+        </div>
+        <div class="logo-text">
+            <h1 class="logo-title">HealthShoper</h1>
+            <p class="logo-subtitle">товары для здоровья</p>
         </div>
     </div>
-    <!-- Контакты и кнопки действий -->
-        <div class="header-actions">
-                <button class="btn cart">Корзина</button>
-                <button class="btn order">Заказать товар</button>
+    <!-- Меню навигации -->
+    <nav class="top-links">
+        <button class="btn-green">ХОЧУ ПОПРОБОВАТЬ</button>
+        <a href="#" class="link">СТАТЬИ</a>
+        <a href="#" class="link">ОТЗЫВЫ</a>
+        <a href="#" class="link">СМИ О НАС</a>
+        <a href="#" class="link">ПАРТНЕРАМ</a>
+        <a href="#" class="link">КОНТАКТЫ</a>
+    </nav>
+
+    <div class="call">
+        <p class="phone">+7 499 444-69-02</p>
+        <div class="callback-string">
+        <img src="images/call.svg" alt="call">
+        <a href="#" class="callback">обратный звонок</a>
+        </div>
+    </div>
+</div>
+<!--  Нижняя шапка -->
+<div class="header-lower">
+    <div class="header-lower-line">
+        <div class="catalog">
+            <img src="images\menu-catalog.svg" alt="arrow" class="catalog-strips">
+            <span>КАТАЛОГ ТОВАРОВ</span>
+        </div>
+
+        <div class="right-block">
+            <div class="tabs">
+                <img src="images/account-icon.svg" alt="account">
+                <a href="#">МОЙ АККАУНТ</a>
+                <img src="images\arrow-down.svg" alt="arrow" class="right-arrows">
+            </div>
+            <div class="tabs">
+                <img src="images/shopping-icon.png" alt="shopping">
+                <a href="#">КОРЗИНА</a>
+                <img src="images\arrow-down.svg" alt="arrow" class="right-arrows">
             </div>
         </div>
-    </header>
+    </div>
+</div>
+</header>
+<main class="main-container">
+    <!-- Меню -->
+    <div class="sidebar">
+        <div class="menu-product ">
+            <div class="menu-icon">
+                <img src="images/iсon-1.svg" alt="1">
+            </div>
+            <div class="menu-text">Все товары</div>
+        </div>
+
+        <div class="menu-product ">
+            <div class="menu-icon">
+                <img src="images/iсon-backs.svg" alt="backs">
+            </div>
+            <div class="menu-text">Когда болит спина</div>
+            <div class="menu subtitle">хит</div>
+            <img src="images\Arrow-side.svg" alt="Arrow" class="menu-arrow">
+        </div>
+
+        <div class="menu-product ">
+            <div class="menu-icon">
+                <img src="images/iсon-necks.svg" alt="necks">
+            </div>
+            <div class="menu-text">Когда болит шея</div>
+            <img src="images\Arrow-side.svg" alt="Arrow" class="menu-arrow">
+        </div>
+
+        <div class="menu-product">
+            <div class="menu-icon">
+                <img src="images/iсon-sleep.svg"  alt="sleep">
+            </div>
+            <div class="menu-text">Для здорового сна</div>
+            <img src="images\Arrow-side.svg" alt="Arrow" class="menu-arrow">
+        </div>
+        <div class="menu-product">
+            <div class="menu-icon">
+                <img src="images/iсon-sleep.svg" alt="sleep">
+            </div>
+            <div class="menu-text">Массажное оборудование</div>
+        </div>
+        <div class="menu-product">
+            <div class="menu-icon">
+                <img src="images/iсon-massager.svg" alt="massager">
+            </div>
+            <div class="menu-text">Товары со скидкой</div>
+        </div>
+        <div class="menu-product ">
+            <div class="menu-icon">
+                <img src="images/iсon-1.svg" alt="1">
+            </div>
+            <div class="menu-text">Отзывы</div>
+            <div class="menu subtitle">новое</div>
+        </div>
+        <div class="menu-product ">
+            <div class="menu-icon">
+                <img src="images/iсon-1.svg" alt="1">
+            </div>
+            <div class="menu-text">Болит спина, что делать?</div>
+        </div>
+        <div class="menu-product ">
+            <div class="menu-icon">
+                <img src="images/iсon-1.svg" alt="1">
+            </div>
+            <div class="menu-text">Где можно попробовать?</div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="picture">
+                <img src="images/image-mat.jpg" alt="mat">
+        </div>
+    </div>
+</main>
+    <!-- Заголовок продажи -->
+    <section class="sales-section">
+        <h1 class="section-title">ХИТЫ ПРОДАЖ / РАСПРОДАЖА</h1>
+    <div class="sales-tabs">
+        <button class="sales-btn-green">САМЫЕ ПОПУЛЯРНЫЕ</button>
+        <button class="sales-buttons">РАСПРОДАЖА</button>
+    </div>
+    <div class="product-cards">
+        <button class="arrow-left">
+            <img src="images\leftArrow.svg" alt="left">
+        </button>
+    </div>
+    <!-- Карточки товаров -->
+    <div class="sales-products">
+        <div class="product-card">
+
+        <!-- 1 Карточка -->
+        <div class="product-card">
+            <img src="images\back-pillow.jpg" alt="back" class="product-image">
+            <p class="product-desc">Черная подспинная подушка</p>
+            <!-- цены -->
+            <div class="price-block">
+                <span class="new-price">8 900 р.</span>
+                <span class="old-price">10 900 р.</span>
+            </div>
+            
+            <div class="product-buttons">
+                <button class="cart-btn">
+                    <img src="images\shopping-icon.png" alt="shopping">
+                </button>
+
+                <button class="order-btn">ЗАКАЗ В 1 КЛИК</button>
+            </div>
+        </div>
+        <!-- 2 Карточка -->
+        <div class="product-card">
+            <img src="images\neck-pillow.jpg" alt="neck" class="product-image">
+            <p class="product-desc">Шейный полувалик Detensor (рост от 150 см.) </p>
+            <!-- цены -->
+            <div class="price-block">
+                <span class="new-price">4 950 р.</span>
+                <span class="old-price">7 100 р.</span>
+            </div>
+            
+            <div class="product-buttons">
+                <button class="cart-btn">
+                    <img src="images\shopping-icon.png" alt="shopping">
+                </button>
+
+                <button class="order-btn">ЗАКАЗ В 1 КЛИК</button>
+            </div>
+        </div>
+        <!-- 3 Карточка -->
+        <div class="product-card">
+            <img src="images\therapeutic-mat.jpg" alt="therapeutic" class="product-image">
+            <p class="product-desc">Мат Detensor 18% (от 65 до 120 кг) жесткость 2+</p>
+            <div class="price-block">
+                <span class="new-price">55 614 р.</span>
+                <span class="old-price">59 800 р.</span>
+            </div>
+        
+            <div class="product-buttons">
+                <button class="cart-btn">
+                    <img src="images\shopping-icon.png" alt="shopping">
+                </button>
+                <button class="order-btn">ЗАКАЗ В 1 КЛИК</button>
+            </div>
+        </div>
+        <!-- 4 Карточка -->
+        <div class="product-card">
+            <img src="images\medical-mattress.jpg" alt="medical" class="product-image">
+            <p class="product-desc">Матрас-топпер FIBROTOP Classic (80х200х9 см)</p>
+            <div class="price-block">
+                <span class="new-price">25 752 р.</span>
+                <span class="old-price">45 800 р.</span>
+            </div>
+            <div class="product-buttons">
+                <button class="cart-btn">
+                    <img src="images\shopping-icon.png" alt="shopping">
+                </button>
+                <button class="order-btn">ЗАКАЗ В 1 КЛИК</button>
+            </div>
+        </div>
+        <!-- правая стрелка -->
+        <button class="slider-arrow right">
+            <img src="images\ArrowRight (1).svg" alt="Arrow">
+        </button>
+    </section>
+    <section class="sales-section">
+        <h1 class="section-title">ВОЗМОЖНО, ВАС ЗАИНТЕРЕСУЕТ</h1>
+    <div class="sales-tabs">
 </body>
 </html>
